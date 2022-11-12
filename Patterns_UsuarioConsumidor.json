@@ -1,0 +1,16 @@
+db.UsuarioConsumidor.insertOne({
+        _id: "0001",
+        nombreConsumidor: "Julio Saldarriaga",
+        telefonoConsumidor: 985804245,
+        añoNacimiento: "2022-11-10",
+        contraseña: "JulioS123",
+        email: "Julio_1504@gmail.com",
+        localización: {
+                        pais: "Perú",
+                        region: "Lima",
+                        distrito: "Surco",
+                        codigoPostal: 15085,
+                        nombreCalle: "Av. Primavera, Jr. Los heroes",
+                        numCalle: 5
+                      }
+})

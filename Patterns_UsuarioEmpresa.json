@@ -1,0 +1,27 @@
+db.usuarioEmpresa.insertOne({
+    _id: "0001",
+    nombreEmpresa:"Verdecitos",
+    razonSocial:"Bodegas Verdecitos S.A.",
+    telefonoEmpresa:"5564-231",
+    email:"verdecitos@gmail.com",
+    contraseña:"verdecitosPotentes123",
+    localizacion:[
+        {
+            pais: "Perú",
+            region:"Lima",
+            distrito:"San Borja",
+            codigoPostal:15066,
+            nombreaCalle: "Av. Primavera, Jr. Los jardines",
+            numCalle:4
+        },
+        {
+            pais: "Perú",
+            region:"Lima",
+            distrito:"San Juan de Mirafores",
+            codigoPostal:15066,
+            nombreaCalle: "Av. Canadá, Jr. Camaná",
+            numCalle:23
+        }
+    ]
+
+})

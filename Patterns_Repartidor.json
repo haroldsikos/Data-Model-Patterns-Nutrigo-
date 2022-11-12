@@ -1,0 +1,13 @@
+db.Repartidor.insertOne({
+    _id: "0001",
+    nombreRepartidor: "Fernando Pacheco",
+    telefonoRepartidor: 912930123,
+    promedioValoracion: 4,
+    transporte:{
+        idTransporte: 1,
+        tipoTransporte: "moto lineal",
+        estado: "En tránsito",
+        capacidad: 4,
+
+    }
+})

@@ -1,0 +1,21 @@
+db.orden.insertOne(
+{
+    idRepartidor: 00001,
+    idConsumidor: 00001,
+    fechaOrden: new Date("2022-05-18T16:35:00"),
+    medioDePago: "Tarjeta de debito",
+    ordenDetalles: [
+        {
+            idProducto: 00002,
+            descuento: 0,
+            cantidadProuctos: 2,
+            precioTotal: 30
+        },
+        {
+            idProducto: 18,
+            descuento: 10,
+            cantidadProuctos: 1,
+            precioTotal: 15
+        }
+    ]
+})
